@@ -8,7 +8,7 @@ import java.util.concurrent.Semaphore;
 
 public class Bumblebees extends binMeta {
     public static ArrayList<Bumblebee> Bees;
-    public static  Ruche ruche; //!!!!!!!!!!remove 'static' to use multipass (threaded version)!!!!!!!!!!!!!!!!!!//
+    public   Ruche ruche;
     static public boolean[][] artificial_word;
     static public boolean[][] BeeMap;
     int current_generation = 0;
